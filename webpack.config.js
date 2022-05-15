@@ -67,6 +67,10 @@ const getPlugins = () => {
         {
           from: path.resolve(__dirname, 'src/assets/favico.ico'),
           to: path.resolve(__dirname, 'dist')
+        },
+        {
+          from: path.resolve(__dirname, 'README.md'),
+          to: path.resolve(__dirname, 'dist')
         }
       ]
     })
