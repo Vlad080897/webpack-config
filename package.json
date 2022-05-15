@@ -1,0 +1,48 @@
+{
+  "name": "webpack-train",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
+    "dev": "cross-env NODE_ENV=development webpack --mode development",
+    "prod": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
+    "csv-loader": "^3.0.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "json-loader": "^0.5.7",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "node-sass": "^7.0.1",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.1",
+    "webpack": "^5.72.1",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@types/xml": "^1.0.8",
+    "normalize.css": "^8.0.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
